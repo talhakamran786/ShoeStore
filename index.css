@@ -1,3 +1,7 @@
+.maindiv{
+    width: 100%;
+    /* height: 120%; */
+}
 #firstdiv{
 background-color:black ;
 width: 100%;
@@ -13,15 +17,16 @@ display: block;
     font-family: sans-serif ;
     font-size: 29px;
     font-weight: 200px;
+display: block;
 }
 .headerText {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    background: rgba(0,0,0,.3);
+    /* background: rgba(0,0,0,.3); */
     width: 100%;
-    height: 100%;}
-
+    /* height: 100%;} */
+display: block;
 /* .fas fa-shopping-basket {
     width: 20px;
     height: 20px;
@@ -29,29 +34,114 @@ display: block;
     color: yellow;
     position: relative;
     left: 80%;
-} */
+*/}
 .products{
     display: flex;
+    width: 100%;
+    height: 100%;
+
 }
 .cardimg{
-    width: 22%;
-    height:  22%;
-    position: relative;
-    top: 20px;
-    left: 10px;
-    margin-left: 30px;
-    display: inline-block;
-display: flex;
+    width: 450px;    
+    margin-left: 20px;
+}
+.button{
+color: white;
+width: 90%;
+height: 10%;
+margin: 20px;
+    background-color: black;
+}
+
+#frstdiv{
+    background-color:black ;
+width: 100%;
+margin-top: 5%;
+height: 70px;
+display: block;
 }
 .productname{
-    font-size: 25px;
-    font-weight: 700;
-    margin: 20px 180px;
-    /* display: inline-block; */
+    position:relative;
+    left: 33%;}
+    .img{
+        width: 80px;
+        height: 80px;
+position: relative;
+/* top: 150px; */
+left: 100px;
+    }
+    .Data
+{
+    /* background-color: red; */
+    width: 100%;
+    position: relative;
+top: 150px;
+margin-top: 20px;
+}    
+.Data1{
+    position: relative;
+    left: 6%;
+    top: -25px;
+    font-weight: bold;
 }
-.productprice{
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 205px;
+.Data2{
+    color: green;
+    position: relative;
+    left: 8%;
+    top: -25px;
+    font-weight: bold;
+
+}
+.plus{
+    border-radius: 20px;
+    border: green;
+    position: relative;
+    left: 12%;
+    top: -25px;
+    font-weight: bold;
+}
+.one{
+    position: relative;
+    left: 15%;
+    top: -25px;
+    font-weight: bold;
+}
+.sub{
+    border-radius: 20px;
+    border: green;
+    position: relative;
+    left: 18%;
+    top: -25px;
+    font-weight: bold;  
+}
+#total{
+    /* background-color: red; */
+    color: green;
+    position: relative;
+top: 100px;
+left: 70%;
+font-weight: bold;  
+
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+}
+.items{
+    margin-left: 20%;
+    display: block;
+}
+.item{
+    color: black;
+    position: relative;
+    top: 15px;
+}
     
-}
+    @media only screen and (max-width: 1200px) {
+        .maindiv {
+          display: block;
+          width: 1000px;
+          /* height: 112px ; */
+        }
+      }
